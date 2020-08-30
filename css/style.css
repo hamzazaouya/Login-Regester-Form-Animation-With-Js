@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.hero {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    position: relative;
+    width: 380px;
+    height: 480px;
+    background-color: #FFF;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.up-bottons-box {
+    position: relative;
+    text-align: center;
+    margin: 2.2rem auto;
+    box-shadow: 0 0 20px 9px #FF61241F;
+    border-radius: 2rem;
+    width: 13rem;
+}
+
+.up-botton-box {
+    background-color: transparent;
+    height: 2rem;
+    width: 6rem;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+}
+
+#btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    width: 6.5rem;
+    background-image: linear-gradient(to right, #FF105F, #FFAD06);
+    border-radius: 2rem;
+    transition: .5s;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons span {
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2rem;
+    background-image: linear-gradient(to right, #FF105F, #FFAD06);
+    margin: 0 .7rem;
+    cursor: pointer;
+}
+
+.social-icons span i {
+    color: #FFF;
+    transform: translateY(50%);
+}
+
+.input-group {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    margin: 3rem auto 0;
+    transition: .5s;
+}
+
+.input-field {
+    display: block;
+    height: 2rem;
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #999;
+    color: #999;
+    margin-bottom: 1rem
+}
+
+.check {
+    margin-top: 2rem
+}
+
+.check-box {
+    margin-right: .5rem;
+}
+
+.check span {
+    color: #999;
+    font-size: .8rem;
+}
+
+.submit-btn {
+    display: block;
+}
+
+.submit-btn {
+    margin: 2rem auto 0;
+    height: 2rem;
+    width: 80%;
+    border-radius: 2rem;
+    background:none;
+    border:none;
+    background-image: linear-gradient(to right, #FF105F, #FFAD06);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#register {
+    left: 110%
+}
